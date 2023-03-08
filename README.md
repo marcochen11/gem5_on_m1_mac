@@ -23,6 +23,6 @@ This file shows how to run gem5 on M1 Mac inside a docker container
 
 4. run docker container
     ```
-    docker run -u root --volume gem5:/gem5 --rm -it gem5_docker
+    docker run -u root --volume ${PWD}/gem5:/gem5 --rm -it gem5_docker
     ```
     your gem5 repo will be located at ```/gem5``` of your container
